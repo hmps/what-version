@@ -5,7 +5,7 @@ A small and simple Node CLI tool to inspect the specified version in a package's
 
 ## Installation
 
-Clone this repo and run `npm link` in the root folder.
+`npm install -g @hmps/what-version`
 
 This will create two CLI commands:
 
@@ -16,7 +16,7 @@ They both do the same thing, `wv` is just a shorter alternative.
 
 ## Usage
 
-`$ what-version`
+`$ what-version` or `$ wv`
 
 ## License
 MIT
