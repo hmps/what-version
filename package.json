@@ -7,16 +7,13 @@
     "minimist": "^1.2.0"
   },
   "bin": {
-    "what-version": "index.js",
-    "wv": "index.js"
+    "what-version": "cli.js",
+    "wv": "cli.js"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "git-flow"
-  ],
   "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
   "license": "MIT"
 }
