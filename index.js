@@ -1,13 +1,11 @@
-#! /usr/bin/env node
-
 var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
 
 var version;
 
-
-fs.readFile('./package.json', 'utf8', parseVersion);
-
+module.exports = function whatVersion() {
+    fs.readFile('./package.json', 'utf8', parseVersion);
+}
 
 function parseVersion(err, response) {
     if (err) {
