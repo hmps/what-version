@@ -1,13 +1,13 @@
 {
   "name": "@hmps/what-version",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "minimist": "^1.2.0"
   },
   "bin": {
-    "what-version" : "index.js",
+    "what-version": "index.js",
     "wv": "index.js"
   },
   "devDependencies": {},
